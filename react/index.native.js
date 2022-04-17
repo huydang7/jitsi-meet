@@ -11,9 +11,10 @@ import './features/mobile/polyfills';
 import React, { PureComponent } from 'react';
 import { AppRegistry } from 'react-native';
 
-import { App } from './features/app/components';
+// import { App } from './features/app/components';
 import { _initLogging } from './features/base/logging/functions';
 import JitsiThemePaperProvider from './features/base/ui/components/JitsiThemeProvider';
+import { App } from './kiwimeet/app/components';
 
 /**
  * The type of the React {@code Component} props of {@link Root}.
