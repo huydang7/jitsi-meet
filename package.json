@@ -185,6 +185,7 @@
     "lint-fix": "eslint  --max-warnings 0 --fix .",
     "postinstall": "patch-package && jetify",
     "validate": "npm ls",
-    "start": "make dev"
+    "start": "make dev",
+    "build-ios-sdk": "rm -rf sdk/ios && mkdir -p sdk/ios && bash ./ios/scripts/release-sdk.sh ./sdk/ios"
   }
 }
